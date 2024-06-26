@@ -23,7 +23,7 @@ We have a shared Zotero library dedicated to reproducibility.
    + [BIDS-PROV](https://github.com/bids-standard/BEP028_BIDSprov)
  + [git](https://git-scm.com/)
    + [git parable](https://tom.preston-werner.com/2009/05/19/the-git-parable)
- + [Datalad]((datalad.org)
+ + [Datalad](datalad.org)
    + [git-annex](https://git-annex.branchable.com/)
    + [shrinky](https://github.com/datalad/shrinky)
    
