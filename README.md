@@ -18,6 +18,7 @@ Send an email to Camille Maumet `(camille.maumet (at) inria.fr)` with:
 
 You should receive a zotero invitation by email giving you access to the library :)
 > Note that this process make take a few hours/days
+
 > Please check your spam the zotero email might end up there
 
 ## Good starting articles
