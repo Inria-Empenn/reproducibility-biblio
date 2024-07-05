@@ -1,0 +1,39 @@
+---
+title: 'demidenm/PyReliMRI: v2.1.0'
+authors:
+- Michael Demidenko
+- Russ Poldrack
+- Chris Markiewicz
+- Elizabeth DuPre
+date: '2024-06-01'
+publishDate: '2024-07-05T12:03:55.225117Z'
+publication_types:
+- manuscript
+publication: '*Zenodo*'
+doi: 10.5281/ZENODO.12512085
+abstract: "Several changes and additions are made:    A more comprehensive docstring
+  is used to enhance information on PyReliMRI readthedocs  The ICC function tests
+  were expanded to confirm ICC, between subject variance and within subject variance
+  estimates from sumqc_icc() are compared to estimates from liner mixed effect model
+  outputs from stat models. Specifically, see test comparing pyrelimri.icc vs statsmodels\
+  \  The returned list of estimates for ICC computations have been revised. Previously,
+  the MSBS and MSWS were returned. However, this was not always informative to the
+  ICC being computed, nor to understanding how variances are impacted. For example,
+  when the ICC(3,1) was returned, the MSBS and MSWS were not directly used in the
+  computation. Furthermore, they were not true to the denominator and the numerator
+  for each formula. Thus, for voxelwise, edgewise, rois, etc., where sumsq_icc() is
+  used, now a dictionary is returned with: 1) ICC estimate, 2) upper 95CI, 3) lower
+  95CI, 4) between subject variance, 5) within subject variance, 6) between measure
+  variance (in case of ICC(2,1), otherwise None/empty values)  Included a TR-by-TR
+  timeseries extraction for masks/coordinates and locked to onset times/behavioral
+  events. This provides the extraction of the mean signal change across a timeseries
+  for a given ROI. This is based on Nilearn's niftimaskers where standardizing via
+  the call 'psc'  Included an edgewise_icc computation on correlation matrices. This
+  is strictly for comparing a list of lists of variables includes subjects' correlation
+  matrices across runs/sessions or the paths to these correlation matrices. Note,
+  if using pandas dataframe standards, it is assumed that the header = None and row
+  index = None"
+links:
+- name: URL
+  url: https://zenodo.org/doi/10.5281/zenodo.12512085
+---

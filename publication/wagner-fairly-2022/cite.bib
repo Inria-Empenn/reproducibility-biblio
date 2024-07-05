@@ -1,0 +1,29 @@
+@article{wagner_fairly_2022,
+ abstract = {Abstract
+Large-scale datasets present unique opportunities to perform scientific investigations with unprecedented breadth. However, they also pose considerable challenges for the findability, accessibility, interoperability, and reusability (FAIR) of research outcomes due to infrastructure limitations, data usage constraints, or software license restrictions. Here we introduce a DataLad-based, domain-agnostic framework suitable for reproducible data processing in compliance with open science mandates. The framework attempts to minimize platform idiosyncrasies and performance-related complexities. It affords the capture of machine-actionable computational provenance records that can be used to retrace and verify the origins of research outcomes, as well as be re-executed independent of the original computing infrastructure. We demonstrate the framework’s performance using two showcases: one highlighting data sharing and transparency (using the studyforrest.org dataset) and another highlighting scalability (using the largest public brain imaging dataset available: the UK Biobank dataset).},
+ annote = {AIM: FAIRLYBIG article introduce a datalad based framework for reproducible, scalable domain agnostic computationsIntroductionFAIR = Findability, accessibility, interoperability and reusabilityProcessing of large scale datasets =\textgreater necessary to have efficient processing techniques and derivatives data sharing and reuse strategies (reduces environnmental cost, open data to researchers with no sufficient computing resource) with an emphasis on trustworthiness (and thus tracking).Examples of big dataset in the neuroimaging ecosystem:+ HCP+ dHCP+ ABCD+ UK Biobank
+“Here, we present a portable, free and open source framework — built on DataLad14 and containerization software15 — to reproducibly process large-scale datasets. It empowers independent consumers to verify or reproduce the results based on machine-actionable (i.e., machine-readable, automatically re-executable) records of computational provenance, in an infrastructure-agnostic fashion.” (Wagner et al., 2022, p. 2)machine actionable = computer can re execute directly the computation when reading these results.contributions: datalad-ukbiobank (datalad plugin) + datalad-container for processing
+ResultsEfficient tracking of datasetsOne dataset = two representations + a regular directory tree (access, processing)+ storage representation (storage)All components of classic processing chain (data, code, containers)  can be identified and tracked relying on cryptographic hash (1 file = 1 hash) (How does this work ?)
+Efficient data processing
+storage location != processing location retrieve only data that are needed, process them and “commit” the changesDatalad != workflow engine but can be interfaced with a workflow engine such as snakemake (what about nipype/pydra ?)Process provenance capture
+Performed by datalad run (shell script execution) or datalad container-run
+Recompute a previous computation using datalad rerun command
+“Process provenance—how code and commands created results from input data in a particular computational environment—of any processing routine can be captured and stored in machine-readable, automatically re-executable records” (Wagner et al., 2022, p. 4)PROV data model = ? SHOWCASE example : the UK BIOBANK Project using containerized CAT12 toolboxHow to use SLURM + SNAKEMAKE (PYDRA ?)Alternatives to FAIRLY BIG+ Pan-Neuro --\textgreater more toward interactive processing+ DVC+ SnakeMake + Apache Spark/DaskLimitations},
+ author = {Wagner, Adina S. and Waite, Laura K. and Wierzba, Małgorzata and Hoffstaedter, Felix and Waite, Alexander Q. and Poldrack, Benjamin and Eickhoff, Simon B. and Hanke, Michael},
+ doi = {10.1038/s41597-022-01163-2},
+ file = {Wagner et al. - 2022 - FAIRly big A framework for computationally reprod.pdf:/home/alpron/Zotero/storage/JQW82RZ9/Wagner et al. - 2022 - FAIRly big A framework for computationally reprod.pdf:application/pdf},
+ issn = {2052-4463},
+ journal = {Scientific Data},
+ keywords = {datalad, Important},
+ language = {en},
+ month = {March},
+ note = {Number: 1},
+ number = {1},
+ pages = {80},
+ shorttitle = {FAIRly big},
+ title = {FAIRly big: A framework for computationally reproducible processing of large-scale data},
+ url = {https://www.nature.com/articles/s41597-022-01163-2},
+ urldate = {2024-01-03},
+ volume = {9},
+ year = {2022}
+}
