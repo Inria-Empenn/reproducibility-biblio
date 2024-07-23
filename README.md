@@ -26,8 +26,8 @@ zotero_email:<your_zotero_email>
 ```
 You should receive a zotero invitation by email giving you access to the library.
 > [!NOTE]  
-> The approval process may take a few days
+> The approval process may take a few days.
 
 > [!TIP]
-> Please check your spam directory as the zotero email might end up there
+> Please check your spam directory as the zotero email might end up there.
 
