@@ -9,7 +9,7 @@ There are two main ways to use the bibliography contained in this website:
 
 ## Shared Zotero Library :books:
 
-As an Empenn team member you may want to join the reproducibility group shared zotero bibliography.
+As an Empenn team member you may also want to join the reproducibility group shared zotero library
 
 ### How to access it ?
 Send an email to Camille Maumet (camille.maumet (at) inria.fr) with:
