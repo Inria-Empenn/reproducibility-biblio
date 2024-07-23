@@ -1,33 +1,28 @@
-The Reproducibility Working Group Bibliography
-Welcome ! :wave:
-This repository gathers (useful) resources for the study of reproducibility in neuroimaging. This repository is maintained by the reproducibility working group (PI: Camille Maumet) of the Empenn research team.
+# The Reproducibility Working Group Bibliography
+## Welcome ! :wave:
+This repository gathers (useful) resources for the study of reproducibility in neuroimaging. This repository is maintained by the reproducibility working group led by [Camille Maumet](http://camillemaumet.com/) of the [Empenn research team](https://www.inria.fr/fr/empenn).
 
-Shared Zotero Library :books:
-In addition to this github repository, the reproducibility working group also has a shared zotero library.
+## Shared Zotero Library :books:
 
-How to access it ?
+As an Empenn team member you may want to join the reproducibility group shared zotero bibliography.
+
+### How to access it ?
 Send an email to Camille Maumet (camille.maumet (at) inria.fr) with:
+```
+[object] : access to repro zotero library
 
-email object : access to repro zotero library
-
-email body :
+Dear Mrs Maumet,
+I am currently member of the Empenn research team and would like to access the reproducibility working group shared zotero library
+Please find hereunder my zotero informations:
 
 zotero_login: <your_zotero_login>
 or
-
 zotero_email:<your_zotero_email>
+```
 You should receive a zotero invitation by email giving you access to the library :)
+> [!NOTE]  
+> The approval process may take a few days
 
-Note that this process make take a few hours/days
+> [!TIP]
+> Please check your spam directory as the zotero email might end up there
 
-Please check your spam the zotero email might end up there
-
-(to be completed and updated)
-
-Bibliography
-Good starting articles
-Full Bibliography
-Softwares
-Miscellaneous
-neurostars
-[zotero-tips]
