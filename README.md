@@ -7,6 +7,10 @@ There are two main ways to use the bibliography contained in this website:
 1. :mag: explore [the website bibliography](https://inria-empenn.github.io/reproducibility-biblio/publication/) and export references of interest
 2. :scroll: retrieve the full bibliography contained in the [publications.bib](https://github.com/Inria-Empenn/reproducibility-biblio/blob/main/publications.bib) Bibtex file
 
+The second use cas can be achieved either by downloading the raw publications.bib](https://github.com/Inria-Empenn/reproducibility-biblio/blob/main/publications.bib) by cloning or forking  [reproducibility-biblio](https://github.com/Inria-Empenn/reproducibility-biblio) Github repository
+> [!TIP]
+> Please check the relevant GitHub documentation to know more about [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and [forking](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks)
+
 ## How to contribute to this website ?
 We warmly welcome all contributions! There are several ways to contribute, including
 + add new references
