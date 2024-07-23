@@ -1,5 +1,5 @@
 ---
-name: erroneous reference
+name: Erroneous reference
 about: Report an erroneous reference of the bibliography
 title: "[ERRONEOUS REFERENCE]: #<issue that created the reference>"
 labels: incorrect-reference
