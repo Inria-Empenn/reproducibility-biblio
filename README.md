@@ -24,7 +24,7 @@ zotero_login: <your_zotero_login>
 or
 zotero_email:<your_zotero_email>
 ```
-You should receive a zotero invitation by email giving you access to the library :)
+You should receive a zotero invitation by email giving you access to the library.
 > [!NOTE]  
 > The approval process may take a few days
 
