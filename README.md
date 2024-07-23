@@ -5,7 +5,7 @@ This repository gathers (useful) resources for the study of reproducibility in n
 ## How to use this website ?
 There are two main ways to use the bibliography contained in this website:
 1. :mag: explore [the website bibliography](https://inria-empenn.github.io/reproducibility-biblio/publication/) and export references of interest
-2. :scroll: retrieve the full bibliography contains in the `[publications.bib](https://github.com/Inria-Empenn/reproducibility-biblio/blob/main/publications.bib) Bibtex file` 
+2. :scroll: retrieve the full bibliography contains in the [publications.bib](https://github.com/Inria-Empenn/reproducibility-biblio/blob/main/publications.bib) Bibtex file` 
 
 ## Shared Zotero Library :books:
 
