@@ -1,7 +1,5 @@
 ---
-title: Garden of forking paths in textlessspan style=\"font-variant:small-caps;\"textgreaterERPtextless/spantextgreater
-  research – Effects of varying pre‐processing and analysis steps in an textlessspan
-  style=\"font-variant:small-caps;\"textgreaterN400textless/spantextgreater experiment
+title: Garden of forking paths in ERP research – Effects of varying pre-processing and analysis steps in an N400 experiment
 authors:
 - Anđela Šoškić
 - Suzy J. Styles
