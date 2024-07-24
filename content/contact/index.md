@@ -16,8 +16,12 @@ sections:
 [object] : access to repro zotero library
 
 Dear Mrs Maumet,
+
 I am currently member of the Empenn research team and would like to access the reproducibility working group shared zotero library
+
+
 Please find hereunder my zotero informations:
+
 
 zotero_login: <your_zotero_login>
 or
