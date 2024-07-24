@@ -12,6 +12,7 @@ sections:
       text: 'Email Camille Maumet (camille.maumet (at) inria.fr) with:
       
 ```
+
 [object] : access to repro zotero library
 
 Dear Mrs Maumet,
@@ -28,6 +29,7 @@ You should receive a zotero invitation by email giving you access to the library
 
 > [!NOTE]  
 > The approval process may take a few days.
+
 
 > [!TIP]
 > Please check your spam directory as the zotero email might end up there.
