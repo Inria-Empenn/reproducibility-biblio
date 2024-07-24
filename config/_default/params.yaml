@@ -7,9 +7,11 @@
 
 appearance:
   theme_day: modern
-  theme_night:
+  theme_night: modern
+  mode: system
   font: native
   font_size: L
+  color: blue
 
 # SEO
 
