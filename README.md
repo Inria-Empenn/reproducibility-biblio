@@ -1,6 +1,6 @@
 # The Reproducibility Working Group Bibliography
 ## Welcome ! :wave:
-This repository gathers (useful) resources for the study of reproducibility in neuroimaging. This repository contained the souce code and content of the [Reproducibility Working Group Bibliography website](https://inria-empenn.github.io/reproducibility-biblio/) and is maintained by the reproducibility working group (led by [Camille Maumet](http://camillemaumet.com/)) of the [Empenn research team](https://www.inria.fr/fr/empenn) .
+This repository gathers (useful) resources for the study of reproducibility in neuroimaging. This repository contained the souce code and content of the [Reproducibility Group Bibliography website](https://inria-empenn.github.io/reproducibility-biblio/) and is maintained by the [reproducibility group](https://team.inria.fr/empenn/research/scientific-activities/reproducibility/) of the Empenn research team.
 
 ## How to use this website ?
 There are two main ways to use the bibliography contained in this website:
