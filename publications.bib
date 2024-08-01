@@ -77,14 +77,14 @@
 	url = {https://www.science.org/doi/10.1126/science.adg8538},
 	doi = {10.1126/science.adg8538},
 	abstract = {It is widely hoped that statistical models can improve decision-making related to medical treatments. Because of the cost and scarcity of medical outcomes data, this hope is typically based on investigators observing a model’s success in one or two datasets or clinical contexts. We scrutinized this optimism by examining how well a machine learning model performed across several independent clinical trials of antipsychotic medication for schizophrenia. Models predicted patient outcomes with high accuracy within the trial in which the model was developed but performed no better than chance when applied out-of-sample. Pooling data across trials to predict outcomes in the trial left out did not improve predictions. These results suggest that models predicting treatment outcomes in schizophrenia are highly context-dependent and may have limited generalizability.
-          ,
+          , 
             Editor’s summary
-
+            
               A central promise of artificial intelligence (AI) in healthcare is that large datasets can be mined to predict and identify the best course of care for future patients. Unfortunately, we do not know how these models would perform on new patients because they are rarely tested prospectively on truly independent patient samples. Chekroud
               et al
               . showed that machine learning models routinely achieve perfect performance in one dataset even when that dataset is a large international multisite clinical trial (see the Perspective by Petzschner). However, when that exact model was tested in truly independent clinical trials, performance fell to chance levels. Even when building what should be a more robust model by aggregating across a group of similar multisite trials, subsequent predictive performance remained poor. —Peter Stern
-
-          ,
+            
+          , 
             Clinical prediction models that work in one trial do not work in future trials of the same condition and same treatments.},
 	language = {en},
 	number = {6679},
@@ -514,6 +514,24 @@ Included an edgewise\_icc computation on correlation matrices. This is strictly 
 	file = {Giehl et al. - 2024 - Sharing brain imaging data in the Open Science era.pdf:/home/alpron/Zotero/storage/KLC63VH2/Giehl et al. - 2024 - Sharing brain imaging data in the Open Science era.pdf:application/pdf},
 }
 
+@article{rosenblatt_data_2024-1,
+	title = {Data leakage inflates prediction performance in connectome-based machine learning models},
+	volume = {15},
+	issn = {2041-1723},
+	url = {https://www.nature.com/articles/s41467-024-46150-w},
+	doi = {10.1038/s41467-024-46150-w},
+	abstract = {Abstract
+            Predictive modeling is a central technique in neuroimaging to identify brain-behavior relationships and test their generalizability to unseen data. However, data leakage undermines the validity of predictive models by breaching the separation between training and test data. Leakage is always an incorrect practice but still pervasive in machine learning. Understanding its effects on neuroimaging predictive models can inform how leakage affects existing literature. Here, we investigate the effects of five forms of leakage–involving feature selection, covariate correction, and dependence between subjects–on functional and structural connectome-based machine learning models across four datasets and three phenotypes. Leakage via feature selection and repeated subjects drastically inflates prediction performance, whereas other forms of leakage have minor effects. Furthermore, small datasets exacerbate the effects of leakage. Overall, our results illustrate the variable effects of leakage and underscore the importance of avoiding data leakage to improve the validity and reproducibility of predictive modeling.},
+	language = {en},
+	number = {1},
+	urldate = {2024-07-15},
+	journal = {Nature Communications},
+	author = {Rosenblatt, Matthew and Tejavibulya, Link and Jiang, Rongtao and Noble, Stephanie and Scheinost, Dustin},
+	month = feb,
+	year = {2024},
+	pages = {1829},
+	file = {Rosenblatt et al. - 2024 - Data leakage inflates prediction performance in co.pdf:/home/alpron/Zotero/storage/P3NIEWBK/Rosenblatt et al. - 2024 - Data leakage inflates prediction performance in co.pdf:application/pdf},
+}
 
 @article{jadavji_editorial_2023,
 	title = {Editorial: {Reproducibility} in neuroscience},
@@ -557,7 +575,7 @@ Included an edgewise\_icc computation on correlation matrices. This is strictly 
 	url = {http://biorxiv.org/lookup/doi/10.1101/2024.03.19.585755},
 	doi = {10.1101/2024.03.19.585755},
 	abstract = {Abstract
-
+          
             Empirical studies reporting low test-retest reliability of individual blood oxygen-level dependent (BOLD) signal estimates in functional magnetic resonance imaging (fMRI) data have resurrected interest among cognitive neuroscientists in methods that may improve reliability in fMRI. Over the last decade, several individual studies have reported that modeling decisions, such as smoothing, motion correction and contrast selection, may improve estimates of test-retest reliability of BOLD signal estimates. However, it remains an empirical question whether certain analytic decisions
             consistently
             improve individual and group level reliability estimates in an fMRI task across multiple large, independent samples. This study used three independent samples (
@@ -581,7 +599,7 @@ Included an edgewise\_icc computation on correlation matrices. This is strictly 
 }
 
 @article{soskic_garden_nodate,
-	title = {Garden of forking paths in ERP research: Effects of varying pre-processing and analysis steps in an N400 experiment},
+	title = {Garden of forking paths in {ERP} research – {Effects} of varying pre-processing and analysis steps in an {N400} experiment},
 	volume = {n/a},
 	url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/psyp.14628},
 	doi = {https://doi.org/10.1111/psyp.14628},
@@ -609,4 +627,129 @@ Included an edgewise\_icc computation on correlation matrices. This is strictly 
 	month = may,
 	year = {2024},
 	pages = {804--808},
+}
+
+@article{spisak_multivariate_2023,
+	title = {Multivariate {BWAS} can be replicable with moderate sample sizes},
+	volume = {615},
+	copyright = {2023 The Author(s)},
+	issn = {1476-4687},
+	url = {https://www.nature.com/articles/s41586-023-05745-x},
+	doi = {10.1038/s41586-023-05745-x},
+	language = {en},
+	number = {7951},
+	urldate = {2024-07-31},
+	journal = {Nature},
+	author = {Spisak, Tamas and Bingel, Ulrike and Wager, Tor D.},
+	month = mar,
+	year = {2023},
+	note = {Publisher: Nature Publishing Group},
+	keywords = {Cognitive neuroscience, Learning algorithms, Neuroscience},
+	pages = {E4--E7},
+	file = {Full Text PDF:/home/alpron/Zotero/storage/PQNM323H/Spisak et al. - 2023 - Multivariate BWAS can be replicable with moderate .pdf:application/pdf},
+}
+
+@article{marek_reproducible_2022,
+	title = {Reproducible brain-wide association studies require thousands of individuals},
+	volume = {603},
+	copyright = {2022 The Author(s), under exclusive licence to Springer Nature Limited},
+	issn = {1476-4687},
+	url = {https://www.nature.com/articles/s41586-022-04492-9},
+	doi = {10.1038/s41586-022-04492-9},
+	abstract = {Magnetic resonance imaging (MRI) has transformed our understanding of the human brain through well-replicated mapping of abilities to specific structures (for example, lesion studies) and functions1–3 (for example, task functional MRI (fMRI)). Mental health research and care have yet to realize similar advances from MRI. A primary challenge has been replicating associations between inter-individual differences in brain structure or function and complex cognitive or mental health phenotypes (brain-wide association studies (BWAS)). Such BWAS have typically relied on sample sizes appropriate for classical brain mapping4 (the median neuroimaging study sample size is about 25), but potentially too small for capturing reproducible brain–behavioural phenotype associations5,6. Here we used three of the largest neuroimaging datasets currently available—with a total sample size of around 50,000 individuals—to quantify BWAS effect sizes and reproducibility as a function of sample size. BWAS associations were smaller than previously thought, resulting in statistically underpowered studies, inflated effect sizes and replication failures at typical sample sizes. As sample sizes grew into the thousands, replication rates began to improve and effect size inflation decreased. More robust BWAS effects were detected for functional MRI (versus structural), cognitive tests (versus mental health questionnaires) and multivariate methods (versus univariate). Smaller than expected brain–phenotype associations and variability across population subsamples can explain widespread BWAS replication failures. In contrast to non-BWAS approaches with larger effects (for example, lesions, interventions and within-person), BWAS reproducibility requires samples with thousands of individuals.},
+	language = {en},
+	number = {7902},
+	urldate = {2024-07-31},
+	journal = {Nature},
+	author = {Marek, Scott and Tervo-Clemmens, Brenden and Calabro, Finnegan J. and Montez, David F. and Kay, Benjamin P. and Hatoum, Alexander S. and Donohue, Meghan Rose and Foran, William and Miller, Ryland L. and Hendrickson, Timothy J. and Malone, Stephen M. and Kandala, Sridhar and Feczko, Eric and Miranda-Dominguez, Oscar and Graham, Alice M. and Earl, Eric A. and Perrone, Anders J. and Cordova, Michaela and Doyle, Olivia and Moore, Lucille A. and Conan, Gregory M. and Uriarte, Johnny and Snider, Kathy and Lynch, Benjamin J. and Wilgenbusch, James C. and Pengo, Thomas and Tam, Angela and Chen, Jianzhong and Newbold, Dillan J. and Zheng, Annie and Seider, Nicole A. and Van, Andrew N. and Metoki, Athanasia and Chauvin, Roselyne J. and Laumann, Timothy O. and Greene, Deanna J. and Petersen, Steven E. and Garavan, Hugh and Thompson, Wesley K. and Nichols, Thomas E. and Yeo, B. T. Thomas and Barch, Deanna M. and Luna, Beatriz and Fair, Damien A. and Dosenbach, Nico U. F.},
+	month = mar,
+	year = {2022},
+	note = {Publisher: Nature Publishing Group},
+	keywords = {Cognitive neuroscience, Psychology},
+	pages = {654--660},
+	file = {Full Text PDF:/home/alpron/Zotero/storage/RVNDP5RZ/Marek et al. - 2022 - Reproducible brain-wide association studies requir.pdf:application/pdf},
+}
+
+@article{grady_influence_2020,
+	title = {Influence of sample size and analytic approach on stability and interpretation of brain‐behavior correlations in task‐related {fMRI} data},
+	volume = {42},
+	issn = {1065-9471},
+	url = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7721240/},
+	doi = {10.1002/hbm.25217},
+	abstract = {Limited statistical power due to small sample sizes is a problem in fMRI research. Most of the work to date has examined the impact of sample size on task‐related activation, with less attention paid to the influence of sample size on brain‐behavior correlations, especially in actual experimental fMRI data. We addressed this issue using two large data sets (a working memory task, N = 171, and a relational processing task, N = 865) and both univariate and multivariate approaches to voxel‐wise correlations. We created subsamples of different sizes and calculated correlations between task‐related activity at each voxel and task performance. Across both data sets the magnitude of the brain‐behavior correlations decreased and similarity across spatial maps increased with larger sample sizes. The multivariate technique identified more extensive correlated areas and more similarity across spatial maps, suggesting that a multivariate approach would provide a consistent advantage over univariate approaches in the stability of brain‐behavior correlations. In addition, the multivariate analyses showed that a sample size of roughly 80 or more participants would be needed for stable estimates of correlation magnitude in these data sets. Importantly, a number of additional factors would likely influence the choice of sample size for assessing such correlations in any given experiment, including the cognitive task of interest and the amount of data collected per participant. Our results provide novel experimental evidence in two independent data sets that the sample size commonly used in fMRI studies of 20–30 participants is very unlikely to be sufficient for obtaining reproducible brain‐behavior correlations, regardless of analytic approach., Limited statistical power due to small sample sizes is a problem in fMRI research. Most of the work to date has examined the impact of sample size on task‐related activation, with less attention paid to the influence of sample size on brain‐behavior correlations, especially in actual experimental fMRI data. Our results provide novel experimental evidence in two independent data sets that the sample size commonly used in fMRI studies of 20–30 participants is very unlikely to be sufficient for obtaining reproducible brain‐behavior correlations, regardless of whether a univariate or multivariate approach is used.},
+	number = {1},
+	urldate = {2024-07-31},
+	journal = {Human Brain Mapping},
+	author = {Grady, Cheryl L. and Rieck, Jenny R. and Nichol, Daniel and Rodrigue, Karen M. and Kennedy, Kristen M.},
+	month = sep,
+	year = {2020},
+	pmid = {32996635},
+	pmcid = {PMC7721240},
+	pages = {204--219},
+	file = {PubMed Central Full Text PDF:/home/alpron/Zotero/storage/W742CY9G/Grady et al. - 2020 - Influence of sample size and analytic approach on .pdf:application/pdf},
+}
+
+@misc{deyoung_beyond_2024,
+	title = {Beyond {Increasing} {Sample} {Sizes}: {Optimizing} {Effect} {Sizes} in {Neuroimaging} {Research} on {Individual} {Differences}},
+	copyright = {https://creativecommons.org/licenses/by/4.0/legalcode},
+	shorttitle = {Beyond {Increasing} {Sample} {Sizes}},
+	url = {https://osf.io/bjn62},
+	doi = {10.31219/osf.io/bjn62},
+	abstract = {Linking neurobiology to relatively stable individual differences in cognition, emotion, motivation, and behavior can require large sample sizes to yield replicable results. Given the nature of between-person research, sample sizes at least in the hundreds are likely to be necessary in most neuroimaging studies of individual differences, regardless of whether they are investigating the whole brain or more focal hypotheses. However, the appropriate sample size depends on the expected effect size. Therefore, we propose four strategies to increase effect sizes in neuroimaging research, which may help to enable the detection of replicable between-person effects in samples in the hundreds rather than the thousands: (1) theoretical matching between neuroimaging tasks and behavioral constructs of interest; (2) increasing the reliability of both neural and psychological measurement; (3) individualization of measures for each participant; and (4) using multivariate approaches with cross-validation instead of univariate approaches. We discuss challenges associated with these methods and highlight strategies for improvements that will help the field to move toward a more robust and accessible neuroscience of individual differences.},
+	language = {en},
+	urldate = {2024-07-30},
+	author = {DeYoung, Colin G. and Hilger, Kirsten and Hanson, Jamie L. and Abend, Rany and Allen, Timothy and Beaty, Roger and Blain, Scott D. and Chavez, Robert and Engel, Stephen A. and Ma, Feilong and Fornito, Alex and Genç, Erhan and Goghari, Vina and Grazioplene, Rachael G. and Homan, Philipp and Joyner, Keenan and Kaczkurkin, Antonia N. and Latzman, Robert D and Martin, Elizabeth A and Nikolaidis, Aki and Pickering, Alan and Safron, Adam and Sassenberg, Tyler and Servaas, Michelle and Smillie, Luke D. and Spreng, R. Nathan and Viding, Essi and Wacker, Jan},
+	month = jul,
+	year = {2024},
+	file = {DeYoung et al. - 2024 - Beyond Increasing Sample Sizes Optimizing Effect .pdf:/home/alpron/Zotero/storage/ZS9NMZRN/DeYoung et al. - 2024 - Beyond Increasing Sample Sizes Optimizing Effect .pdf:application/pdf},
+}
+
+@article{tendler_why_2023,
+	title = {Why every lab needs a handbook},
+	volume = {12},
+	issn = {2050-084X},
+	url = {https://elifesciences.org/articles/88853},
+	doi = {10.7554/eLife.88853},
+	abstract = {A lab handbook is a flexible document that outlines the ethos of a research lab or group. A good handbook will outline the different roles within the lab, explain what is expected of all lab members, provide an overview of the culture the lab aims to create, and describe how the lab supports its members so that they can develop as researchers. Here we describe how we wrote a lab handbook for a large research group, and provide resources to help other labs write their own handbooks.},
+	language = {en},
+	urldate = {2024-08-01},
+	journal = {eLife},
+	author = {Tendler, Benjamin C and Welland, Maddie and Miller, Karla L and {The WIN Handbook Team}},
+	month = jul,
+	year = {2023},
+	keywords = {best practices, to read},
+	pages = {e88853},
+	file = {Tendler et al. - 2023 - Why every lab needs a handbook.pdf:/home/alpron/Zotero/storage/75L3MYKQ/Tendler et al. - 2023 - Why every lab needs a handbook.pdf:application/pdf},
+}
+
+@article{feldman_value_2024,
+	title = {The value of replications goes beyond replicability and is tied to the value of the research it replicates: {Commentary} on {Isager} et al. (2024)},
+	copyright = {Creative Commons Attribution 4.0 International},
+	shorttitle = {The value of replications goes beyond replicability and is tied to the value of the research it replicates},
+	url = {https://osf.io/btnuj/},
+	doi = {10.17605/OSF.IO/BTNUJ},
+	urldate = {2024-08-01},
+	author = {Feldman, Gilad},
+	collaborator = {{Center For Open Science}},
+	year = {2024},
+	note = {Publisher: OSF},
+	keywords = {to read},
+	file = {Feldman - 2024 - The value of replications goes beyond replicabilit.pdf:/home/alpron/Zotero/storage/MAJXU58Z/Feldman - 2024 - The value of replications goes beyond replicabilit.pdf:application/pdf},
+}
+
+@article{isager_exploring_2024,
+	title = {Exploring a formal approach to selecting studies for replication: {A} feasibility study in social neuroscience},
+	volume = {171},
+	issn = {00109452},
+	shorttitle = {Exploring a formal approach to selecting studies for replication},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S0010945223002691},
+	doi = {10.1016/j.cortex.2023.10.012},
+	language = {en},
+	urldate = {2024-08-01},
+	journal = {Cortex},
+	author = {Isager, Peder M. and Lakens, Daniël and Van Leeuwen, Thed and Van 'T Veer, Anna E.},
+	month = feb,
+	year = {2024},
+	pages = {330--346},
+	file = {Isager et al. - 2024 - Exploring a formal approach to selecting studies f.pdf:/home/alpron/Zotero/storage/Z2VP3RRD/Isager et al. - 2024 - Exploring a formal approach to selecting studies f.pdf:application/pdf},
 }
