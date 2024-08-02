@@ -1,4 +1,4 @@
-# The Reproducibility Working Group Bibliography
+# The Reproducibility Group Bibliography
 ## Welcome ! :wave:
 This repository gathers (useful) resources for the study of reproducibility in neuroimaging. This repository contained the souce code and content of the [Reproducibility Group Bibliography website](https://inria-empenn.github.io/reproducibility-biblio/) and is maintained by the [reproducibility group](https://team.inria.fr/empenn/research/scientific-activities/reproducibility/) of the Empenn research team.
 
