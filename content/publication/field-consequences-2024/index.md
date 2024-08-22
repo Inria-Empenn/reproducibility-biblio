@@ -1,5 +1,5 @@
 ---
-title: Consequences of the Scientfic Reform Movement
+title: Consequences of the Scientific Reform Movement
 authors:
 - Sarahanne M. Field
 - Noah van Dongen

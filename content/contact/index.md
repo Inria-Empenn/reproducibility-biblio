@@ -20,7 +20,7 @@ Dear Mrs Maumet,
 I am currently member of the Empenn research team and would like to access the reproducibility working group shared zotero library
 
 
-Please find hereunder my zotero informations:
+Please find hereunder my zotero information:
 
 
 zotero_login: <your_zotero_login>
