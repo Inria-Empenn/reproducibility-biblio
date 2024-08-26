@@ -1,6 +1,6 @@
 # The Reproducibility Group Bibliography
 ## Welcome ! :wave:
-This repository gathers (useful) resources for the study of reproducibility in neuroimaging. This repository contained the souce code and content of the [Reproducibility Group Bibliography website](https://inria-empenn.github.io/reproducibility-biblio/) and is maintained by the [reproducibility group](https://team.inria.fr/empenn/research/scientific-activities/reproducibility/) of the Empenn research team.
+This repository gathers (useful) resources for the study of reproducibility in neuroimaging. This repository contained the source code and content of the [Reproducibility Group Bibliography website](https://inria-empenn.github.io/reproducibility-biblio/) and is maintained by the [reproducibility group](https://team.inria.fr/empenn/research/scientific-activities/reproducibility/) of the Empenn research team.
 
 ## How to use this website ?
 There are two main ways to use the bibliography contained in this website:
@@ -36,7 +36,7 @@ Email Camille Maumet (camille.maumet (at) inria.fr) with:
 
 Dear Mrs Maumet,
 I am currently member of the Empenn research team and would like to access the reproducibility working group shared zotero library
-Please find hereunder my zotero informations:
+Please find hereunder my zotero information:
 
 zotero_login: <your_zotero_login>
 or
