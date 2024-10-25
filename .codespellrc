@@ -5,4 +5,4 @@ check-hidden = true
 # Ignore names and file names
 ignore-regex = (^\s*([Ff]ile|[Aa]uthor)\s*=.*)
 # Mostly last names whitelist
-ignore-words-list = paret,blok
+ignore-words-list = paret,blok, heterogenous
